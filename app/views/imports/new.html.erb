@@ -11,6 +11,11 @@
 
     <div class="form-group">
       <%= f.label 'Select product csv file' %>
+      <ul>
+      <li><%= link_to 'Download an example', '/sample_products_file.csv' %></li>
+      <li>Format: <code>sku,name,description,price_cents</code></li>
+      <li>Header row required</li>
+      </ul>
       <div class="input-group">
         <span class="input-group-btn">
             <span class="btn btn-primary btn-file">
