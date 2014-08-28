@@ -1,0 +1,26 @@
+<div class="page-header">
+  <%= link_to imports_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_import_path(@import), :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show import</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Source filename:</dt>
+  <dd><%= @import.source_filename %></dd>
+
+  <dt>Notes:</dt>
+  <dd><%= @import.notes %></dd>
+
+  <dt>Count records:</dt>
+  <dd><%= @import.count_records %></dd>
+
+  <dt>Live:</dt>
+  <dd><%= @import.live %></dd>
+
+</dl>

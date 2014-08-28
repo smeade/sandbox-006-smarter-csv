@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  source_filename: MyString
+  notes: MyString
+  count_records: 1
+  live: false
+
+two:
+  source_filename: MyString
+  notes: MyString
+  count_records: 1
+  live: false

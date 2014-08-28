@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :imports
+
   root to: 'products#index'
   resources :products
 
