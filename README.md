@@ -6,6 +6,8 @@ Demonstrates:
 
 * smarter-csv gem
 
+Demo Heroku app is [here](http://sandbox-006-smarter-csv.herokuapp.com/).
+
 ## Notes
 
 **smarter-csv**
