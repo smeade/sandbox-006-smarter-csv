@@ -18,10 +18,10 @@ class ImportsControllerTest < ActionController::TestCase
 
   test "should create import" do
     assert_difference('Import.count') do
-      post :create, import: { count_records: @import.count_records, live: @import.live, notes: @import.notes, source_filename: @import.source_filename }
+      post :create, import: { notes: @import.notes }
     end
 
-    assert_redirected_to import_path(assigns(:import))
+    assert_redirected_to products_path
   end
 
   test "should show import" do
@@ -35,7 +35,7 @@ class ImportsControllerTest < ActionController::TestCase
   end
 
   test "should update import" do
-    patch :update, id: @import, import: { count_records: @import.count_records, live: @import.live, notes: @import.notes, source_filename: @import.source_filename }
+    patch :update, id: @import, import: { notes: @import.notes }
     assert_redirected_to import_path(assigns(:import))
   end
 
