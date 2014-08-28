@@ -9,9 +9,11 @@ Demonstrates:
 ## Notes
 
 **smarter-csv**
+
 * See the [gem documentation](https://github.com/tilo/smarter_csv).
 
 **Styling file inputs**
+
 * See [Cory LaViska's solution](http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/).
 
 ## Getting Started
