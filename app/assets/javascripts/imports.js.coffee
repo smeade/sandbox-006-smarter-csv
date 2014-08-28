@@ -1,4 +1,4 @@
-readyPage = ->
+$(document).on "page:change", ->
 
   # -------------------------------------------------------------------------------------
   # Styled file input
@@ -25,6 +25,3 @@ readyPage = ->
       return
 
     return
-
-$(document).ready readyPage
-$(document).on "page:load", readyPage
